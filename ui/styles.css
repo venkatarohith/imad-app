@@ -1,4 +1,4 @@
-﻿body{
+body{
      font-family:Arial,Times,Sans-serif;
      background-color:#C3DDDD;
     }
@@ -10,8 +10,6 @@ header{
       overflow:hidden;
       text-align:center;
       }
-
-
 header h1{
    
    font-size:4em
