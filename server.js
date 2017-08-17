@@ -17,31 +17,31 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get('/ui/rohith', function (req, res) {
+app.get('/rohith', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'rohith.html'));
 });
 
-app.get('/ui/page1', function (req, res) {
+app.get('/page1', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'page1.html'));
 });
 
-app.get('/ui/page2', function (req, res) {
+app.get('/page2', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'page2.html'));
 });
 
-app.get('/ui/page3', function (req, res) {
+app.get('/page3', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'page3.html'));
 });
 
-app.get('/ui/page4', function (req, res) {
+app.get('/page4', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'page4.html'));
 });
 
-app.get('/ui/contact', function (req, res) {
+app.get('/contact', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
 });
 
-app.get('/ui/styles.css', function (req, res) {
+app.get('/styles.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'styles.css'));
 });
 
