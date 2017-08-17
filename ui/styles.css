@@ -36,7 +36,15 @@ header h2{
           color:black;
  }
  
+.nav li a:hover{
+        background-color:#004EFF;
+        color:white;
+}
 
+.nav li a.active{
+        background-color:#004EFF;
+        color:white;
+}
 
 
 .content{
