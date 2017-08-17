@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+      <head>
+           <title>ROHITH'S PAGE</title>
+           <link rel="stylesheet"type="text/css"href="styles.css"media="screen">
+
+      </head>
+      <body>
+            <header>
+                            <h1>VENKATA ROHITH's WEBSITE</h1>
+                            <h2>This site gives you some info about JAVA</h2>
+
+             </header>
+
+            <div class="nav">
+              <ul>
+                  <li><a href="rohith.html">HOME</a></li>
+                  <li><a href="page1.html">PAGE 1</a></li>
+                  <li><a class="active" href="page2.html">PAGE 2</a></li>
+                  <li><a href="page3.html">PAGE 3</a></li>
+                  <li><a href="page4.html">PAGE 4</a></li>
+                  <li><a href="contact.html">CONTACT US</a></li>
+ 
+              </ul>
+
+             </div>
+ 
+             <div class="content">
+             <h1>Why Learn Java?</h1>
+             <article>
+             <p>
+At the moment, probably the most compelling reason to learn Java—and probably the reason you bought this book—is that HotJava applets are written in Java. Even if that were not the case, Java as a language has significant advantages over other languages and other programming environments that make it suitable for just about any programming task. This section describes some of those advantages.
+
+             </p>
+       <h2>Java Is Platform-Independent </h2>
+             <p>
+Platform independence is one of the most significant advantages that Java has over other programming languages, particularly for systems that need to work on many different platforms. Java is platform-independent at both the source and the binary level.
+
+
+             </p>
+             <p>
+At the source level, Java’s primitive data types have consistent sizes across all development platforms. Java’s foundation class libraries make it easy to write code that can be moved from platform to platform without the need to rewrite it to work with that platform.
+Platform-independence doesn’t stop at the source level, however. Java binary files are also platform-independent and can run on multiple problems without the need to recompile the source. How does this work? Java binary files are actually in a form called bytecodes.
+
+
+             </p>
+             <p>
+Normally, when you compile a program written in C or in most other languages, the compiler translates your program into machine codes or processor instructions. Those instructions are specific to the processor your computer is running—so, for example, if you compile your code on a Pentium system, the resulting program will run only on other Pentium systems. If you want to use the same program on another system, you have to go back to your original source, get a compiler for that system, and recompile your code. Figure 1.2 shows the result of this system: multiple executable programs for multiple systems.
+Things are different when you write code in Java. The Java development environment has two parts: a Java compiler and a Java interpreter. The Java compiler takes your Java program and instead of generating machine codes from your source files, it generates bytecodes.
+
+
+             </p>
+             <p>
+Why go through all the trouble of adding this extra layer of the bytecode interpreter? Having your Java programs in bytecode form means that instead of being specific to any one system, your programs can be run on any platform and any operating or window system as long as the Java interpreter is available. This capability of a single binary file to be executable across platforms is crucial to what enables applets to work, because the World Wide Web itself is also platformindependent. Just as HTML files can be read on any platform, so applets can be executed on any platform that is a Java-capable browser.
+            </p>
+        
+            <p>
+ The disadvantage of using bytecodes is in execution speed. Because system-specific programs run directly on the hardware for which they are compiled, they run significantly faster than Java bytecodes, which must be processed by the interpreter. For many Java programs, the speed may not be an issue. If you write programs that require more execution speed than the Java interpreter can provide, you have several solutions available to you, including being able to link native code into your Java program or using tools to convert your Java bytecodes into native code. Note that by using any of these solutions, you lose the portability that Java bytecodes provide. You’ll learn about each of these mechanisms on Day 20.
+
+
+             </p>
+              </article>
+
+             </div>
+              
+             <div class="footer">
+                <p>Copyright© Venkata Rohith</p>
+             </div>
+             
+       </body>
+</html
