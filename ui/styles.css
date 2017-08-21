@@ -41,7 +41,7 @@ header h2{
         color:white;
 }
 
-.nav li .active{
+.nav li a.active{
         background-color:#004EFF;
         color:white;
 }
